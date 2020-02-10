@@ -1,6 +1,6 @@
 'use strict'
 
-
+let n=+prompt('Введите число от 0 до 999','');
 function NumbString(num)
 {
     let a=num%10, b=num%100, c=Math.trunc(num/100),
@@ -24,27 +24,5 @@ function NumbString(num)
     }
     return res;
 }
-let n=+prompt('Введите число от 0 до 999','');
-let F=['миллиард','миллион','тысяч'], res=' ';
-for (let i=0; i<3; i++)
-{
-    let k=Math.trunc(n/(10**(3*(3-i)))), C, s;
-    if (i<2)
-        C=['','a ','ов ']
-    else
-        C=['а','и','']
-    if(k>0)
-    {
-        if(k%10==1) s=0;
-        if(k%10>1 && k%10<5) s=1;
-        if(k%10>4) s=2;
-        if(k%100>10 && k%100<20) s=2;
-        if(k%10==0) s=2;
-        res+=NumbString(k)+F[i];
-        res+=C[s];
-        n=n%(10**(3*(3-i)));
-    }
-    
-}
-res+=NumbString(n);
-alert(res);
+
+alert(NumbString(n));
