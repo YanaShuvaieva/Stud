@@ -1,6 +1,7 @@
 'use strict'
 let n=+prompt('Введите размер массива:');
 let arr=[];
+let minIndex=0;
 function randomInteger(min, max) 
 {
     let rand=min-0.5+Math.random()*(max-min+1);
@@ -11,16 +12,13 @@ for(let i=0; i<n; i++)
     arr[i]=randomInteger(0,100);
 }
 alert('Входящий массив:'+arr);
-for (let i=0; i<n; i++)     //сортировка пузырьком
+let min=arr[0];
+for(let i=0; i<n; i++)
 {
-    for(let j=0; j<n-i; j++)
+    if(arr[i]<min)
     {
-    if(arr[j]>arr[j+1])
-        {
-            let a=arr[j];
-            arr[j]=arr[j+1];
-            arr[j+1]=a;
-        }
-    }
+        min=arr[i];
+        minIndex=i;
+    }   
 }
-alert(arr);
+alert(`Индекс минимального элемента ${minIndex}`);
