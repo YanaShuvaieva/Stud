@@ -1,5 +1,5 @@
 'use strict'
-let n=+prompt('Введите размер массива:');
+let n=5;
 let arr=[];
 function randomInteger(min, max) 
 {
@@ -10,7 +10,7 @@ for(let i=0; i<n; i++)
 {
     arr[i]=randomInteger(0,100);
 }
-alert('Входящий массив:'+arr);
+console.log('Входящий массив:',arr);
 if(n%2==0)
 {
     for(let i=0; i<n/2; i++){
@@ -31,4 +31,4 @@ else
     }
     
 }
-alert('Массив с изменением первой и второй половины массива:'+arr);
+console.log('Массив с изменением первой и второй половины массива:',arr);

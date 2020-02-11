@@ -1,5 +1,5 @@
 'use strict'
-let n=+prompt('Введите размер массива:');
+let n=6;
 let arr=[];
 let max;
 function randomInteger(min, max) 
@@ -11,7 +11,7 @@ for(let i=0; i<n; i++)
 {
     arr[i]=randomInteger(0,100);
 }
-alert('Входящий массив:'+arr);
+console.log('Входящий массив:',arr);
 max=arr[0];
 for(let i=0; i<n; i++)
 {
@@ -20,4 +20,4 @@ for(let i=0; i<n; i++)
     max=arr[i];
     }
 }
-alert(`Максимальный элемент массива:${max}`);
+console.log(`Максимальный элемент массива:${max}`);

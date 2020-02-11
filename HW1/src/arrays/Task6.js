@@ -1,5 +1,5 @@
 'use strict'
-let n=+prompt('Введите размер массива','');
+let n=6;
 let arr=[];
 function randomInteger(min, max) 
 {
@@ -10,5 +10,5 @@ for(let i=0;i<n;i++)
 {
    arr[i]=randomInteger(1,100);
 }
-alert("Массив: "+arr);
-alert("Массив в обратном порядке: "+arr.reverse());
+console.log("Массив: ",arr);
+console.log("Массив в обратном порядке: ",arr.reverse());

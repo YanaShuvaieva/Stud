@@ -1,6 +1,6 @@
 'use strict'
 
-let n=+prompt('Введите число от 0 до 999','');
+let n=563;
 function NumbString(num)
 {
     let a=num%10, b=num%100, c=Math.trunc(num/100),
@@ -25,4 +25,4 @@ function NumbString(num)
     return res;
 }
 
-alert(NumbString(n));
+console.log(NumbString(n));

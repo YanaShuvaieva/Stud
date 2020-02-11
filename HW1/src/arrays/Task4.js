@@ -1,4 +1,4 @@
-let n=+prompt('Введите размер массива:');
+let n=7;
 let arr=[];
 let maxIndex=0;
 function randomInteger(min, max) 
@@ -10,7 +10,7 @@ for(let i=0; i<n; i++)
 {
     arr[i]=randomInteger(0,100);
 }
-alert('Входящий массив:'+arr);
+console.log('Входящий массив:',arr);
 let max=arr[0];
 for(let i=0; i<n; i++)
 {
@@ -20,4 +20,4 @@ for(let i=0; i<n; i++)
         maxIndex=i;
     }   
 }
-alert(`Индекс минимального элемента ${maxIndex}`);
+console.log(`Индекс максимального элемента ${maxIndex}`);

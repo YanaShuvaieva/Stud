@@ -1,5 +1,5 @@
 'use strict'
-let n=+prompt('Введите размер массива:');
+let n=7;
 let arr=[];
 function randomInteger(min, max) 
 {
@@ -10,7 +10,7 @@ for(let i=0; i<n; i++)
 {
     arr[i]=randomInteger(0,100);
 }
-alert('Входящий массив:'+arr);
+console.log('Входящий массив:',arr);
 for (let i=0; i<n; i++)     //сортировка вставками
 {
     let x=arr[i];
@@ -22,4 +22,4 @@ for (let i=0; i<n; i++)     //сортировка вставками
     }
     arr[j]=x;
 }
-alert(arr);
+console.log(arr);
