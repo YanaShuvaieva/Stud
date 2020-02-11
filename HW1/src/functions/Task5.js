@@ -24,7 +24,7 @@ function NumbString(num)
     }
     return res;
 }
-let n=+prompt('Введите число от 0 до 999 миллиардов','');
+let n=639000693;
 let F=['миллиард','миллион','тысяч'], res=' ';
 for (let i=0; i<3; i++)
 {
@@ -47,4 +47,4 @@ for (let i=0; i<3; i++)
     
 }
 res+=NumbString(n);
-alert(res);
+console.log(res);

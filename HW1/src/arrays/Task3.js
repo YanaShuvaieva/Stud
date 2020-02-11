@@ -1,5 +1,5 @@
 'use strict'
-let n=+prompt('Введите размер массива:');
+let n=5;
 let arr=[];
 let minIndex=0;
 function randomInteger(min, max) 
@@ -11,7 +11,7 @@ for(let i=0; i<n; i++)
 {
     arr[i]=randomInteger(0,100);
 }
-alert('Входящий массив:'+arr);
+console.log('Входящий массив:',arr);
 let min=arr[0];
 for(let i=0; i<n; i++)
 {
@@ -21,4 +21,4 @@ for(let i=0; i<n; i++)
         minIndex=i;
     }   
 }
-alert(`Индекс минимального элемента ${minIndex}`);
+console.log(`Индекс минимального элемента ${minIndex}`);
