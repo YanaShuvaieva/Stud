@@ -1,0 +1,441 @@
+body{
+    background: url('../89a53a439d65e1d8ddffd1f1c5f67d36.jpg') no-repeat ;
+    transition: background-position .5s ease-out;
+}
+
+.textarea{
+    margin: 0 auto;
+    margin-right: auto;
+    display: flex;
+    color:lightgrey;
+    text-align: right;
+    font-size:23px;
+    width: 324px;
+    height: 100px;
+    background-color: black; 
+    border-style: solid;
+    border-color:black;
+    resize: none;
+    outline: none;
+    
+}
+.first{
+    justify-content: center;   
+    display: flex;  
+}
+.second{
+    justify-content: center;
+    display: flex;  
+}
+.third{
+    justify-content: center;  
+    display: flex;  
+}
+.fourth{
+    justify-content: center;
+    display: flex;    
+}
+.fifth{
+    justify-content: center; 
+    display: flex; 
+}
+
+.AC{
+    background-color: rgb(166,166,166);
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.AC:hover{
+    color: white;
+    background-color: rgb(150, 145, 139);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.backspace{
+    background-color: rgb(166,166,166);
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.backspace:hover{
+    color: white;
+    background-color: rgb(150, 145, 139);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.percent{
+    background-color: rgb(166,166,166);
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.percent:hover{
+    color: white;
+    background-color: rgb(150, 145, 139);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.dil{
+    background-color: rgb(247, 155, 18);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.dil:hover{
+    color: rgb(36, 51, 51);
+    background-color: rgb(150, 145, 139);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.seven{
+    background-color: rgb(51,51,51);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.seven:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.eight{
+    background-color: rgb(51,51,51);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.eight:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.nein{
+    background-color: rgb(51,51,51);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.nein:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.mnozh{
+    background-color: rgb(247, 155, 18);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.mnozh:hover{
+    color: rgb(36, 51, 51);
+    background-color: rgb(150, 145, 139);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.four{
+    background-color: rgb(51,51,51);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.four:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.five{
+    background-color: rgb(51,51,51);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.five:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.six{
+    background-color: rgb(51,51,51);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.six:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.minus{
+    background-color: rgb(247, 155, 18);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.minus:hover{
+    color: rgb(36, 51, 51);
+    background-color: rgb(150, 145, 139);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.one{
+    background-color: rgb(51,51,51);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.one:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.two{
+    background-color: rgb(51,51,51);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.two:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.three{
+    background-color: rgb(51,51,51);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.three:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.plus{
+    background-color: rgb(247, 155, 18);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.plus:hover{
+    color: rgb(36, 51, 51);
+    background-color: rgb(150, 145, 139);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.null{
+    background-color: rgb(247, 155, 18);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.null:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.dot{
+    background-color: rgb(247, 155, 18);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 82px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.dot:hover{
+    background-color: rgb(150, 145, 139);
+    color: rgb(36, 51, 51);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
+.equal{
+    background-color: rgb(247, 155, 18);
+    color: lightgrey;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    width: 164px;
+    height: 70px;
+    transition: all 0.2s ease;
+    border-style: solid;
+    border-color:black;
+    outline: none;
+}
+.equal:hover{
+    color: rgb(36, 51, 51);
+    background-color: rgb(150, 145, 139);
+    cursor: pointer;
+    transition: all 0.20s ease;
+}
