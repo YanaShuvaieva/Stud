@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="buttons.js"></script>
+    
     <script type="text/javascript">
 
         var VanillaRunOnDomReady = function() {
           
     (function(){
       var body = document.body,
-          startX = -100,
+          startX = -200,
           startY = -100,
           w = document.documentElement.offsetWidth,
           h = document.documentElement.offsetHeight;
@@ -56,34 +56,35 @@
         <input id="window" class="textarea" type="text" ></input>
     <div class="first">
         
-        <button class="AC" type="button" onclick="delite()">AC</button>
-        <button class="backspace" type="button" onclick="backspace()">←</button>
-        <button class="percent" >%</button>
-        <button class="dil" type="button" onclick="division()">/</button>
+        <input id="ac" class="AC" type="button" value="AC"></input>
+        <input id="backspace" class="backspace" type="button" value="←"></input>
+        <input id="procent" class="functional" type="button" value="%"></input>
+        <input id="division" class="functional" type="button" value="/"></input>
     </div>
     <div class="second">
-        <button class="seven" type="button" onclick="seven()">7</button>
-        <button class="eight" type="button" onclick="eight()">8</button>
-        <button class="nein" type="button" onclick="nein()">9</button>
-        <button class="mnozh" type="button" onclick="multiplication()">*</button>
+        <input id="seven" class="numbers" type="button" value="7"></input>
+        <input id="eight" class="numbers" type="button" value="8"></input>
+        <input id="nein" class="numbers" type="button" value="9"></input>
+        <input id="multiplication" class="functional" type="button" value="*"></input>
     </div>
     <div class="third">
-        <button class="four" type="button" onclick="four()">4</button>
-        <button class="five" type="button" onclick="five()">5</button>
-        <button class="six" type="button" onclick="six()">6</button>
-        <button class="minus" type="button" onclick="difference()">-</button>
+        <input id="four" class="numbers" type="button" value="4"></input>
+        <input id="five" class="numbers" type="button" value="5"></input>
+        <input id="six" class="numbers" type="button" value="6"></input>
+        <input id="difference" class="functional" type="button" value="-"></input>
     </div>
     <div class="fourth">
-        <button class="one" type="button" onclick="one()">1</button>
-        <button class="two" type="button" onclick="two()">2</button>
-        <button class="three" type="button" onclick="three()">3</button>
-        <button class="plus" type="button" onclick="sum()">+</button>
+        <input id="one" class="numbers" type="button" value="1"></input>
+        <input id="two" class="numbers" type="button" value="2"></input>
+        <input id="three" class="numbers" type="button" value="3"></input>
+        <input id="plus" class="functional" type="button" value="+"></input>
     </div>
     <div class="fifth">
-        <button class="null" type="button" onclick="nul()">0</button>
-        <button class="dot" type="button" onclick="dot()">.</button>
-        <button class="equal" type="button" onclick="equal()">=</button>
+        <input id="nul" class="numbers" type="button" value="0"></input>
+        <input id="dot" class="numbers" type="button" value="."></input>
+        <input id="equal" class="equal" type="button" value="="></input>
     </div>
     </section>
+    <script src="buttons.js"></script>
 </body>
 </html>
