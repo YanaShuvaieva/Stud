@@ -5,60 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    
-    <script type="text/javascript">
-
-        var VanillaRunOnDomReady = function() {
-          
-    (function(){
-      var body = document.body,
-          startX = -200,
-          startY = -100,
-          w = document.documentElement.offsetWidth,
-          h = document.documentElement.offsetHeight;
-    
-      body.addEventListener('mousemove', function(evt){
-        var posX = Math.round(evt.clientX / w * startX)
-        var posY = Math.round(evt.clientY / h * startY)
-        body.style.backgroundPosition = posX + 'px ' + posY + 'px'
-      })
-    })()
-    
-        }
-    
-    var alreadyrunflag = 0;
-    
-    if (document.addEventListener)
-        document.addEventListener("DOMContentLoaded", function(){
-            alreadyrunflag=1; 
-            VanillaRunOnDomReady();
-        }, false);
-    else if (document.all && !window.opera) {
-        document.write('<script type="text/javascript" id="contentloadtag" defer="defer" src="javascript:void(0)"><\/script>');
-        var contentloadtag = document.getElementById("contentloadtag")
-        contentloadtag.onreadystatechange=function(){
-            if (this.readyState=="complete"){
-                alreadyrunflag=1;
-                VanillaRunOnDomReady();
-            }
-        }
-    }
-    
-    window.onload = function(){
-      setTimeout("if (!alreadyrunflag){VanillaRunOnDomReady}", 0);
-    }
-    
-    </script>
 </head>
 <body>
     
     <section id="sect">
-        <input id="window" class="textarea" type="text" ></input>
+        <input id="display" class="textarea" type="text" ></input>
     <div class="first">
         
         <input id="ac" class="AC" type="button" value="AC"></input>
-        <input id="backspace" class="backspace" type="button" value="←"></input>
-        <input id="procent" class="functional" type="button" value="%"></input>
+        <input id="plusminus" class="plusminus" type="button" value="±"></input>
+        <input id="procent" class="procent" type="button" value="%"></input>
         <input id="division" class="functional" type="button" value="/"></input>
     </div>
     <div class="second">
@@ -85,6 +41,6 @@
         <input id="equal" class="equal" type="button" value="="></input>
     </div>
     </section>
-    <script src="buttons.js"></script>
+    <script src="calculator.js"></script>
 </body>
 </html>
